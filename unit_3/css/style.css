@@ -1,0 +1,36 @@
+body { 
+}
+
+h1 {
+	background:#000000;
+	color: #4DAFFF;
+	font-family: Antonio;
+	font-size: 65px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+#slogan {
+		font-size: 30px;
+		font-style: italic;
+}
+
+p {
+	font-family: Antonio;
+	font-size: 20px;
+}
+
+ul {
+
+}
+
+li {
+	font-family: Anton;
+	font-size: 16;
+}
+
+img {
+
+}
