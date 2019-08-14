@@ -1,24 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500&display=swap');
+
 body { 
-}
-
-h1 {
-	background:#000000;
-	color: #4DAFFF;
-	font-family: Antonio;
-	font-size: 65px;
-	font-weight: bold;
-	text-align: center;
-	text-transform: uppercase;
-
-}
-
-#slogan {
-		font-size: 30px;
-		font-style: italic;
+	background: #BBD3FF;
+	font-family: Roboto;
+	font-size: 20px;
 }
 
 p {
-	font-family: Antonio;
+	font-family: Roboto;
 	font-size: 20px;
 }
 
@@ -27,10 +17,47 @@ ul {
 }
 
 li {
-	font-family: Anton;
-	font-size: 16;
+	font-family: Roboto;
+	font-size: 18px;
 }
 
 img {
 
 }
+
+h1 {
+	color: #000000;
+	font-family: Antonio;
+	font-size: 65px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+#mainMenu {
+	color: #000000;
+	font-family: Antonio;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#mainMenu a{
+	color: #000000
+}
+
+
+#mainMenu a:hover {
+	background-color: #FF7477;
+	color: #ffffff;
+}
+
+#slogan {
+		font-family: Antonio;
+		font-size: 30px;
+		font-weight: bold;
+}
+
+
