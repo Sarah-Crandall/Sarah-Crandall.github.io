@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+body { 
+	background: rgba(116,155,204, .5); 
+	font-family: Roboto; sans-serif;
+	font-size: 22px;
+	padding: 10px;
+	margin: 20px;
+}
+
+.wrapper h1 {
+	background: rgb(116,155,204);
+	color: #000000;
+	font-family: Anton; sans-serif;
+	font-size: 65px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	border: none;
+	margin: 1px, 1px, 5px, 1px;
+	padding: 20px;
+}
+
+.wrapper nav {
+	background-color;
+	color: #000000;
+	font-family: Roboto; sans-serif;
+	font-size: 25px;
+	font-weight: bolder;
+	float: center;
+	text-align: center;
+	text-transform: uppercase;
+	border: 1px black solid;
+	display: inline-block;
+	width: 100%;
+
+}
+
+.wrapper nav a{
+	color: #000000;
+	text-decoration: : none;
+	float: center;
+	padding: 10px;
+	width: 300px;
+	display: inline-block;
+}
+
+.wrapper nav a:hover {
+	background-color: rgb(116,155,204);
+	color: #ffffff;
+	float: center;
+
+}
+
+#slogan {
+		background: rgb(116,155,204);
+		color: #ffffff;
+		font-family: Roboto; sans-serif;
+		font-size: 35px;
+		font-weight: bolder;
+		text-transform: uppercase;
+		text-align: center;
+		border: 4px white solid;
+		padding: 20px;
+}
+
+#two_colum {
+	background-color: #FFB7CF;
+	padding: 20px;
+}
+
+
+#left {
+		background: rgba(116,155,204, .5); 
+		border: 4px white solid;
+		padding: 5px;
+		float: left;
+		width: 30%;
+}
+
+#right {
+	background: rgba(116,155,204, .5): 		
+	border: 1px black solid;
+	padding: 1px;
+	float: right;
+	width: 60%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+p {
+	font-family: Roboto; sans-serif;
+	font-size: 20px;
+}
+
+ul {
+	font-family: Roboto; sans-serif;
+	font-size: 16;
+
+}
+
+li {
+	font-family: Roboto; sans-serif;
+	font-size: 16px;
+}
+
+img {
+
+}
+
+footer{
+	background: rgb(116,155,204);	
+	font-color: #ffffff;
+	border: 4px white solid;
+	padding: 20px;
+	margin-top: 10px: 
+}
+
+
