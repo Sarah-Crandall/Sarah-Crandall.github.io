@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+body { 
+	background: rgba(116,155,204, .5); 
+	font-family: Roboto; sans-serif;
+	font-size: 20px;
+	padding: 10px;
+	margin: 20px;
+}
+
+
+.wrapper h1 {
+	background: rgb(116,155,204);
+	color: #000000;
+	font-family: Anton; sans-serif;
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	border: none;
+	width: 90%;
+	margin: auto;
+	padding: 10px;
+}
+
+.wrapper nav {
+	background: rgba(116,155,204, .25);	
+	color: #000000;
+	font-family: Roboto; sans-serif;
+	font-size: 1em;
+	font-weight: bolder;
+	float: center;
+	text-align: center;
+	text-transform: uppercase;
+	width: 90%;
+	margin: 3.5%;
+	padding: 10px;
+	display: inline-block;
+}
+
+.wrapper nav a{
+	color: #000000;
+	text-decoration: :none;
+	float: center;
+	padding: 10px;
+	display: inline-block;
+}
+
+.wrapper nav a:hover {
+	background-color: rgb(116,155,204);
+	color: #ffffff;
+	float: center;
+}
+
+
+#slogan {
+		background: rgb(116,155,204);
+		color: #ffffff;
+		font-family: Roboto; sans-serif;
+		font-size: 1.5em;
+		font-weight: bolder;
+		text-transform: uppercase;
+		text-align: center;
+		width: 90%;
+		margin: auto;
+		padding: 10px;
+}
+
+#two_column_content {
+	background-color: #C8CFE8;
+	width: 90%;
+	padding: 0px;
+	float: center;
+	margin: auto;
+}
+
+
+aside {
+		background: rgba(116,155,204, .5); 
+		border: 4px white solid;
+		padding: 10px;
+		float: left;
+		width: 30%;
+}
+
+article {
+	background: rgba(116,155,204, .5): 		
+	border: 1px black solid;
+	padding: 1px;
+	float: right;
+	width: 62%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	width: 90%;
+}
+
+p {
+	font-family: Roboto; sans-serif;
+	font-size: 1em;
+}
+
+ul, li {
+	font-family: Roboto; sans-serif;
+	font-size: 1em;
+
+}
+
+img {
+	width: ;
+}
+
+
+footer{
+	font-size: .8em;
+	background: rgb(116,155,204);	
+	font-color: #ffffff;
+	border: .2em white solid;
+	width: 90%;
+	padding: 1em;
+	margin: auto;
+}
+
+
+@media only screen and (max-width: 800px) {
+  body{
+  	font-size: 18px;
+  }
+
+  h1, nav, nav a {
+  	float: center;
+  	width: 75%;
+  }
+
+  h1{
+  	font-family: Anton; sans-serif;
+	font-size: 1em;
+  }
+  
+  nav {
+    font-size: 1em;
+    margin: 0 1.6em .75em 0;
+  }
+  
+  nav a {
+      font-size: 1em;
+      margin: 0 1.6em .75em 0;
+  }
+  
+  #slogan {
+  font-size: 1.5em;
+  }
+
+  #two_column_content {
+  	float: none;
+  	display: block;
+  }
+
+  aside {
+  	font-size:.6em;
+  	width: 40%;
+  	align-items: center;
+  }
+
+  p, ul, li {
+  	font-size: 1em;
+  }
+
+  article {
+  	width: 50%;
+  }
+
+  .responsive { 
+	width: 200px;
+	height: 200px;
+  }
+
+  footer {
+  	font-size: .75em;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+ body{
+  	font-size: 14px;
+  }
+  
+  h1, nav, nav a {
+  	display: block;
+  	float: center;
+  }
+
+ h1{
+	font-family: Anton; sans-serif;
+	font-size:  .5em;	
+}
+
+ nav {
+    font-size: 1em;
+    margin: 0 1.6em .75em 0;
+  }
+ 
+ nav a {
+      font-size: 1em;
+      margin: 0 1.6em .75em 0;
+  }
+   
+  #slogan {
+  font-size: 1.5em;
+  width: 85%;
+  }
+
+  #two_column_content {
+  		width: 70%;
+		display: block; 
+		float: center; 		
+  }
+
+  aside {
+  	width: 80%;
+  	float: center;
+  	margin: 2em;
+  	align-content: center;
+  }
+
+  
+  p, ul, li {
+  	font-size: 1em;
+  }
+
+  article {
+  	width: 80%;
+  	float: center;
+  }
+
+.responsive { 
+	width: 175px;
+	height: 175px;
+  }
+
+  footer {
+  	font-size: .75em;
+  }
+}
+
