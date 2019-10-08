@@ -1,9 +1,7 @@
 body {
 	background: ;
 	font-family: sans-serif;
-	font-size: ;
-	padding: ;
-	margin: ;
+	font-size: 16px;
 }
 
 .wrapper h1 {
@@ -15,8 +13,8 @@ body {
 }
 
 .wrapper nav {
-	background: ;
-	color: ;
+	background-color: #45ff44;
+	font-color: #ffffff;
 	font-family: sans-serif;
 	font-size: ;
 
@@ -30,14 +28,19 @@ body {
 	
 }
 
+h1 {
+	font-family: sans-serif;
+	font-size: 40px;
+}
+
 h2 {
 	font-family: sans-serif;
-	font-size: ;
+	font-size: 30px;
 }
 
 h3 {
 	font-family: sans-serif;
-	font-size: ;
+	font-size: 20px;
 }
 
 ul {
