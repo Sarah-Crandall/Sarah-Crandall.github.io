@@ -39,6 +39,7 @@ body {
 	text-decoration: none;
 	float: center;
 	display: inline-block;
+	padding-right: 30px;
 }
 
 .wrapper nav a:hover {
